@@ -231,9 +231,9 @@ class BlackjackGame:
         self.btn_double = Button(bx + 5,   by, bw, bh, "Double", color=(20, 80, 160))
         self.btn_split  = Button(bx + 120, by, bw, bh, "Split",  color=(120, 60, 160))
 
-        self.btn_deal   = Button(bx - 55,  by, 110, bh, "Deal",    color=(30, 120, 30))
-        self.btn_clear  = Button(bx + 65,  by, 110, bh, "Clear",   color=(140, 30, 30))
-        self.btn_rebet  = Button(bx - 175, by, 110, bh, "Re-Bet",  color=(20, 80, 160))
+        self.btn_deal   = Button(bx - 55,  by, 110, bh, "Deal",   color=(30, 120, 30))
+        self.btn_clear  = Button(bx + 65,  by, 110, bh, "Clear",  color=(140, 30, 30))
+        self.btn_rebet  = Button(bx - 175, by, 110, bh, "Re-Bet", color=(20, 80, 160))
 
         self.chips = [
             Chip(5,   SCREEN_W // 2 - 180, SCREEN_H - 155),
